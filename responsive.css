@@ -1,0 +1,53 @@
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (max-width:500) {
+  .table thead{
+    display: none;
+  }
+  .table, .table tbody, .table tr, .table td{
+    display: block;
+    width: 100%;
+  }
+  
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+
+          .pimg{
+            width: 50%;
+            margin-right: 115px;
+            }
+      
+      
+
+        .contact{
+            text-align: center;
+            width: 72%;
+        }
+
+        
+        #career-objective{
+            margin-top: 10px;
+            width: 255px;
+        }
+        #present-status{
+            margin-top: 10px;
+            width: 255px;
+        }
+
+      
+  }
